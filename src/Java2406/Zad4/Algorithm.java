@@ -21,7 +21,7 @@ public class Algorithm {
 
             }
             for(int i = 0; i < integers.size(); i++) {
-                System.out.println(num(integers.get(i)));
+              //  System.out.println(num(integers.get(i)));
             }
         }
         public static int num (List<Integer> integers){
