@@ -21,17 +21,23 @@ public class Algorithm {
 
             }
             for(int i = 0; i < integers.size(); i++) {
-              //  System.out.println(num(integers.get(i)));
+               System.out.println(num(integers));
             }
         }
         public static int num (List<Integer> integers){
         int num = 0;
-        for(int i: integers){
-            num =i + (i - 1);
-        }
-        return num;
+
+        for(int i = 0; i < integers.size(); i++) {
+            if(integers.size() == 1){
+                return 0;
+            }else{
+            num = integers.get(i) + (integers.get(i - 1) );
         }
 
+
+        }
+        return num;
+    }
     }
 
 
