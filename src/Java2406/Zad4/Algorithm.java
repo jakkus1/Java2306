@@ -28,7 +28,7 @@ public class Algorithm {
         int num = 0;
 
         for(int i = 0; i < integers.size(); i++) {
-            if(integers.size() == 1){
+            if(integers.size() == 0 ){
                 return 0;
             }else{
             num = integers.get(i) + (integers.get(i - 1) );
